@@ -14,7 +14,7 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
     private static final String TAG = "MainActivity";
 
-    //commit2
+    //commit3
 
     @ViewInject(R.id.tv1)
     TextView tv1;
