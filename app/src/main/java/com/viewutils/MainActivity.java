@@ -43,4 +43,13 @@ public class MainActivity extends Activity {
     private void clickEvent(View view) {
         Toast.makeText(this, "我被点击了！", Toast.LENGTH_SHORT).show();
     }
+
+
+    public void test() {
+        if (BuildConfig.DEBUG) {
+             Log.i(TAG, "test: commit2");
+        } else {
+            Log.i(TAG, "test: commit1");
+        }
+    }
 }
