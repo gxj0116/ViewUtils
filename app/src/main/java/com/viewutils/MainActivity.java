@@ -14,8 +14,6 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
     private static final String TAG = "MainActivity";
 
-    //commit3
-
     @ViewInject(R.id.tv1)
     TextView tv1;
     @ViewInject(R.id.tv2)
@@ -42,5 +40,10 @@ public class MainActivity extends Activity {
     @OnClick(R.id.btn)
     private void clickEvent(View view) {
         Toast.makeText(this, "我被点击了！", Toast.LENGTH_SHORT).show();
+    }
+
+
+    public void test() {
+        Log.i(TAG, "test: commit1");
     }
 }
