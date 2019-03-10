@@ -14,6 +14,8 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
     private static final String TAG = "MainActivity";
 
+    //commit1
+
     @ViewInject(R.id.tv1)
     TextView tv1;
     @ViewInject(R.id.tv2)
@@ -44,6 +46,10 @@ public class MainActivity extends Activity {
 
 
     public void test() {
-        Log.i(TAG, "test: commit1");
+        if (BuildConfig.DEBUG) {
+             Log.i(TAG, "test: commit2");
+        } else {
+            Log.i(TAG, "test: commit1");
+        }
     }
 }
