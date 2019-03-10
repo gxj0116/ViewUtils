@@ -52,4 +52,13 @@ public class MainActivity extends Activity {
             Log.i(TAG, "test: commit1");
         }
     }
+
+    public void test2() {
+        System.out.print("test1");
+    }
+
+    public void test3() {
+        System.out.print("test3");
+    }
+
 }
